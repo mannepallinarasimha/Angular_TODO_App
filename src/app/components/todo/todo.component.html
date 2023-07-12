@@ -71,7 +71,7 @@
                                 <div class="example-box" *ngFor="let item of done; let i = index" cdkDrag>{{item.description}}
                                     <div class="box" style="display: grid; grid-auto-flow: column; grid-column-gap: 10px;">
                                         <button mat-icon-button color="warn" (click)="deleteDone(i)" ><mat-icon>delete</mat-icon></button>
-                                        <button mat-icon-button color="green"  ><mat-icon>check_circle</mat-icon></button>
+                                        <button mat-icon-button color="primary"  ><mat-icon style="color: green;">check_circle</mat-icon></button>
                                     </div>
                                 </div>
                             </div>
